@@ -1,5 +1,8 @@
 # CKEditor 5 Anchor ID Plugin
 
+[![npm version](https://img.shields.io/npm/v/ckeditor5-anchor-id)](https://www.npmjs.com/package/ckeditor5-anchor-id)
+[![license](https://img.shields.io/npm/l/ckeditor5-anchor-id)](LICENSE)
+
 Plugin for adding anchor IDs to content in CKEditor 5.
 
 ## Installation
