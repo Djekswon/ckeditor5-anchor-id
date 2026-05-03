@@ -1,0 +1,25 @@
+.has-anchor-id {
+    outline: 2px dashed #3f8efc;
+    outline-offset: 4px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+/* Плашка вида #my-id */
+.has-anchor-id::after {
+    content: "#" attr(data-anchor-id);
+    font-size: 11px;
+    font-weight: bold;
+    color: #3f8efc;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    background: white;
+    border: 1px solid #3f8efc;
+    border-radius: 3px;
+    padding: 1px 4px;
+    line-height: 1;
+    pointer-events: none;
+    font-family: monospace;
+}

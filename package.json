@@ -1,0 +1,16 @@
+{
+  "name": "ckeditor5-anchor-id",
+  "version": "1.0.0",
+  "description": "CKEditor 5 plugin for adding anchor IDs",
+  "main": "src/index.js",
+  "keywords": [
+    "ckeditor5",
+    "anchor",
+    "plugin"
+  ],
+  "author": "Evgenii Rigin (rigin.me)",
+  "license": "MIT",
+  "peerDependencies": {
+    "ckeditor5": ">=33.0.0"
+  }
+}
