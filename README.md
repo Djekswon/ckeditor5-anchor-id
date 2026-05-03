@@ -5,7 +5,7 @@ Plugin for adding anchor IDs to content in CKEditor 5.
 ## Installation
 
 ```
-npm install ckeditor5-anchor-id
+npm install ckeditor5-anchor-id --save-dev
 ```
 
 ## Usage
@@ -17,7 +17,24 @@ Editor.builtinPlugins = [
   ...,
   AnchorIdPlugin
 ]
+
+const editorConfig = {
+  ...,
+  toolbar: {
+    ...,
+    items: [
+      ...,
+      "anchorId"
+    ]
+  }
+}
 ```
+
+## Examples
+
+![Icon](docs/images/1.jpg)
+
+![Demo](docs/images/2.jpg)
 
 ## License
 

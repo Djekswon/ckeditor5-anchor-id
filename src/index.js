@@ -65,7 +65,7 @@ export default class AnchorIdPlugin extends Plugin {
 
       button.on('execute', () => {
         const currentId = command.value || '';
-        const newId = prompt('Введите ID:', currentId);
+        const newId = prompt('Enter ID:', currentId);
 
         if (newId !== null) {
           editor.execute('anchorId', { value: newId });
