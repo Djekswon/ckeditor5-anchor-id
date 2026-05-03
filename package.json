@@ -12,5 +12,19 @@
   "license": "MIT",
   "peerDependencies": {
     "ckeditor5": ">=33.0.0"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djekswon/ckeditor5-anchor-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Djekswon/ckeditor5-anchor-id/issues"
+  },
+  "homepage": "https://github.com/Djekswon/ckeditor5-anchor-id#readme"
 }
